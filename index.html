@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>CPS</title>
+        <script src="../src/js/index.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css">
+        
+      
+
+        <link rel="stylesheet" href="../src/scss/main.scss">
+        
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="style.css" rel="stylesheet"></head>
+    <body>
+        <header class="header">
+                <div class="header__block header__block_left">
+                    <div class="header__icon header__icon_burger_menu" id="burgerOpen"><img src="../src/Icons/burger_menu.svg"></div>
+                    <div class="header__line header__line_type_first" style="border-radius: 1px; width: 2px; height: 32px; background: #EAEAEA;"></div>
+                    <div class="header__logo"><img src="../src/Icons/logo.svg" class="../src/Icons/icons__logo"></div>
+                </div>
+                <div class="header__block header__block_right">
+                    <div class="header__icon header__icon_phone"><img src="../src/Icons/phone.svg"></div>
+                    <div class="header__icon header__icon_messege"><img src="../src/Icons//messege.svg"></div>
+                    <div class="header__icon header__icon_persone"><img src="../src/Icons/person.svg"></div>
+
+                    <div class="header__line header__line_type_second" style="border-radius: 1px; width: 2px; height: 32px; background: #EAEAEA;"></div>
+                    <div class="header__icon header__icon_remont"><img src="../src/Icons/remont.svg"></div>
+                    <div class="header__icon header__icon_search"><img src="../src/Icons/search.svg"></div>
+                </div>
+            </header>
+            
+        <main>
+
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu__bar">
+                <div class="mobile-menu__bar-left">
+                    <div class="header__icon header__icon__close__button mobile_menu_button_close_dekstop">
+                        <img src="../src/Icons/x.svg" alt="Закрыть меню">
+                    </div>
+                    <div class="header__logo">
+                        <img src="../src/Icons/logo.svg" alt="Логотип">
+                    </div>
+                </div>
+                <div class="header__icon header__icon--search wer">
+                    <img src="../src/Icons/magnifier.svg" alt="Поиск">
+                </div>
+            </div>
+            <div class="mobile-menu__categories">
+                <div class="mobile-menu__categories-service--main">
+                    <svg class="mobile-menu__categories-service-bar" width="4" height="32" viewBox="0 0 4 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 1.79086 2.20914 0 0 0V32C2.20914 32 4 30.2091 4 28V4Z" fill="#41F6D7"/>
+                    </svg>
+                    <p class="mobile-menu__categories-service-text">Ремонт техники</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Услуги и сервисы</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Корпоративным клиентам</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Продавцам техники</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Партнерам</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Производителям</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Наши сервисные центры</p>
+                </div>
+                <div class="mobile-menu__categories-service">
+                    <p class="mobile-menu__categories-service-text">Контакты</p>
+                </div>
+            </div>
+            <div class="mobile-menu__footer">
+                <div class="mobile-menu__footer-icon-bar">
+                    <div class="header__icon header__icon--burger-menu">
+                        <img src="../src/Icons/phone.svg" alt="Закрыть меню">
+                    </div>
+                    <div class="header__icon header__icon--burger-menu">
+                        <img src="../src/Icons/messege.svg" alt="Закрыть меню">
+                    </div>
+                    <div class="header__icon header__icon--search">
+                        <img src="../src/Icons/magnifier.svg" alt="Поиск">
+                    </div>
+                </div>
+                <div>
+                    <p class="mail">mail@cps.com</p>
+                </div>
+                <div>
+                    <p class="mobile-number">8 800 890 8900</p>
+                </div>
+                <div class="mobile-menu__footer-lang-bar">
+                    <p class="lang__selected">RU</p>
+                    <p class="lang">EN</p>
+                    <p class="lang">CH</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+            <div class="content">
+            <div class="title">
+                    <div class="title__text">
+                    <svg width="4" height="40" viewBox="0 0 4 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z" fill="#41F6D7"/>
+                    </svg>
+                    <p>Услуги и сервисы</p>
+                    </div>
+                    <div class="title__icon">
+                        <div class="title__icon__remont">
+                        <p>Оставить заявку</p>
+                        <div class="header__icon header__icon_remont qq"><img src="../src/Icons/remont.svg"></div>
+                        </div>
+                        <div class="title__icon__search">
+                        <p>Статус ремонта</p>
+                        <div class="header__icon header__icon_search qv"><img src="../src/Icons/search.svg"></div>
+                        </div>
+                    </div>
+            </div>
+            <div class="scroll">
+                <button class="scroll__button scroll__button__active scroll__button__brend">Ремонтируемые бренды</button>
+                <button class="scroll__button scroll__button__active scroll__button__active__device">Ремонтируемые устройства</button>
+                <button class="scroll__button scroll__button__passive scroll__button__passive__device">Ремонтируемые устройства</button>
+                <button class="scroll__button scroll__button__passive scroll__button__service">Дополнительные услуги</button>
+                <button class="scroll__button scroll__button__passive">Цены на услуги</button>
+                <button class="scroll__button scroll__button__passive scroll__button__address">Адреса сервисных центров</button>
+                <button class="scroll__button scroll__button__passive">Специальные цены</button>
+                <button class="scroll__button scroll__button__passive">Отзывы</button>
+            </div>
+            <div class="second_block">
+                <div class="text">
+                <p class="">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                <br class="text__br">
+                <p class="text__dlc__m">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера<a class="text__dlc__l">, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</a></p>
+                    <div class="text__read">
+                    <div class="text__read_icon"><img src="../src/Icons/strelochka.svg"></div>
+                    <p class="">Читать далее</p>
+                    </div>
+                </div>
+                <div class="text__picture">
+                <img src="../src/Icons/picture.png">
+                </div>
+            </div>
+
+        
+        <div class="swiper__head">
+            <p class="swiper__head__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+        </div>
+        <div class="swiper">
+            <div class="brend__line swiper">
+                <div class="swiper-wrapper">
+                <div class="brend__line__block swiper-slide"><img class="brend__line__block__img" src="../src/Icons/Lenovo.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block swiper-slide"><img class="brend__line__block__img" src="../src/Icons/samsung.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block swiper-slide"><img class="brend__line__block__img" src="../src/Icons/apple.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block swiper-slide"><img class="brend__line__block__img" src="../src/Icons/bosch.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block swiper-slide"><img class="brend__line__block__img" src="../src/Icons/hp.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block swiper-slide"><img class="brend__line__block__img" src="../src/Icons/acer.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                
+                <div class="brend__line__block brend__line__block__1121px swiper-slide"><img class="brend__line__block__img" src="../src/Icons/hp.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block brend__line__block__1121px swiper-slide"><img class="brend__line__block__img" src="../src/Icons/acer.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+
+
+
+                <div class="brend__line__block swiper-slide hidden"><img class="brend__line__block__img" src="../src/Icons/Lenovo.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block swiper-slide hidden"><img class="brend__line__block__img" src="../src/Icons/Lenovo.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                <div class="brend__line__block brend__line__block__1121px swiper-slide hidden"><img class="brend__line__block__img" src="../src/Icons/Lenovo.png"><img class="brend__line__block__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="show_all"><img class="show_all__img" src="../src/Icons/strelochka.svg"><p>Показать все</p></div>
+            </div>
+
+
+
+            <div class="swiper__head">
+                <p class="swiper__head__text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+            </div>
+            <div class="service__swiper swiper"> 
+                <div class="swiper-wrapper swiper-wrapper__big">
+                    <div class="service__swiper__slide swiper-slide"><p class="service__swiper__slide__p">Ремонт ноутбуков</p><img class="service__swiper__slide__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                    <div class="service__swiper__slide swiper-slide"><p class="service__swiper__slide__p">Ремонт планшетов</p><img class="service__swiper__slide__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                    <div class="service__swiper__slide swiper-slide"><p class="service__swiper__slide__p">Ремонт ПК</p><img class="service__swiper__slide__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                    <div class="service__swiper__slide service__swiper__slide__desktop swiper-slide"><p class="service__swiper__slide__p">Ремонт мониторов</p><img class="service__swiper__slide__icon" src="../src/Icons/Brend__block__svg.svg"></div>
+                </div>
+                <div class="swiper-pagination"> </div>
+                <div class="show_all"><img class="show_all__img" src="../src/Icons/strelochka.svg"><p>Показать все</p></div>
+            </div>
+            
+            
+            <div class="swiper__head">
+                <p class="swiper__head__text">ЦЕНЫ НА УСЛУГИ</p>
+            </div>
+            <div class="price__swiper mobile">
+                <div class="swiper-wrapper">
+
+
+
+                    <div class="price__swiper__slide swiper-slide">
+                        <div><p class="price__swiper__slide__p price__swiper__slide__p__grey">Ремонтные услуги</p>
+                        <p class="price__swiper__slide__p">Тестирование с выдачей технического заключения</p>
+                    </div>
+                        <div><p class="price__swiper__slide__p price__swiper__slide__p__grey">Цена</p>
+                        <p class="price__swiper__slide__p">Бесплатно</p>
+                    </div>
+                        <div>
+                        <p class="price__swiper__slide__p price__swiper__slide__p__grey">Срок</p>
+                        <div class="price__swiper__slide__block">
+                            <p class="price__swiper__slide__p">30-120 мин</p>
+                            <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                                <img src="../src/icons/strelocka_odna.svg">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="price__swiper__slide swiper-slide">
+                        <div><p class="price__swiper__slide__p price__swiper__slide__p__grey">Ремонтные услуги</p>
+                        <p class="price__swiper__slide__p">Тестирование с выдачей технического заключения</p>
+                    </div>
+                        <div><p class="price__swiper__slide__p price__swiper__slide__p__grey">Цена</p>
+                        <p class="price__swiper__slide__p">Бесплатно</p>
+                    </div>
+                        <div>
+                        <p class="price__swiper__slide__p price__swiper__slide__p__grey">Срок</p>
+                        <div class="price__swiper__slide__block">
+                            <p class="price__swiper__slide__p">30-120 мин</p>
+                            <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                                <img src="../src/icons/strelocka_odna.svg">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="price__swiper__slide swiper-slide">
+                        <div><p class="price__swiper__slide__p price__swiper__slide__p__grey">Ремонтные услуги</p>
+                        <p class="price__swiper__slide__p">Тестирование с выдачей технического заключения</p>
+                    </div>
+                        <div><p class="price__swiper__slide__p price__swiper__slide__p__grey">Цена</p>
+                        <p class="price__swiper__slide__p">Бесплатно</p>
+                    </div>
+                        <div>
+                        <p class="price__swiper__slide__p price__swiper__slide__p__grey">Срок</p>
+                        <div class="price__swiper__slide__block">
+                            <p class="price__swiper__slide__p">30-120 мин</p>
+                            <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                                <img src="../src/icons/strelocka_odna.svg">
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+                    
+
+
+
+                    <div class="price__swiper__slide swiper-slide"></div>
+                    <div class="price__swiper__slide swiper-slide"></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+            <div class="price__block__tablet">
+            <div class="price__block__tablet__name">
+                <p>Ремонтные услуги</p>
+                <p>Цена</p>
+                <p>Срок</p>
+            </div>
+            <div class="price__block__tablet__service">
+                <div class="price__block__tablet__service__one_card"><p>Диагностика</p> <p>Бесплатно</p> <p>30 мин</p> 
+                        <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                            <img src="../src/icons/strelocka_odna.svg">
+                        </div>
+                </div>
+                <div class="price__block__tablet__service__one_card__palocka"><svg class="stretch-line" viewBox="0 0 100 4" preserveAspectRatio="none"><rect width="100%" height="0.1px" fill="#ff3e79"/></svg></div>
+                    
+                    
+                <div class="price__block__tablet__service__one_card"><p>Диагностика</p> <p>Бесплатно</p> <p>30 мин</p> 
+                        <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                            <img src="../src/icons/strelocka_odna.svg">
+                        </div>
+                </div>
+                
+                <div class="price__block__tablet__service__one_card__palocka"><svg class="stretch-line" viewBox="0 0 100 4" preserveAspectRatio="none"><rect width="100%" height="0.1px" fill="#ff3e79"/></svg></div>
+
+                <div class="price__block__tablet__service__one_card"><p>Диагностика</p> <p>Бесплатно</p> <p>30 мин</p> 
+                        <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                            <img src="../src/icons/strelocka_odna.svg">
+                        </div>
+                </div>
+
+                <div class="price__block__tablet__service__one_card__palocka"><svg class="stretch-line" viewBox="0 0 100 4" preserveAspectRatio="none"><rect width="100%" height="0.1px" fill="#ff3e79"/></svg></div>
+
+                <div class="price__block__tablet__service__one_card"><p>Диагностика</p> <p>Бесплатно</p> <p>30 мин</p> 
+                        <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                            <img src="../src/icons/strelocka_odna.svg">
+                        </div>
+                </div>
+
+                <div class="price__block__tablet__service__one_card__palocka"><svg class="stretch-line" viewBox="0 0 100 4" preserveAspectRatio="none"><rect width="100%" height="0.1px" fill="#ff3e79"/></svg></div>
+
+                <div class="price__block__tablet__service__one_card"><p>Диагностика</p> <p>Бесплатно</p> <p>30 мин</p> 
+                        <div class="price__swiper__slide__button"><span class="price__swiper__slide__p price__swiper__slide__button__p">ЗАКАЗАТЬ</span>
+                            <img src="../src/icons/strelocka_odna.svg">
+                        </div>
+                </div>
+
+            </div>
+            </div>
+
+            </div>
+
+            <div class="last__text">
+                <p class="last__text__p">Все цены указаны с учетом НДС. Стоимость ремонта указана на единичную услугу. Для получения коммерческого предложения на постоянное обслуживание, оставьте заявку.</p>
+                <div class="last__text__div"><p class="last__text__p__main">Получить коммерческое предложение <img class="last__text__img" src="../src/Icons/strelocka_odna_ww.svg"></p> </div>
+            </div>
+
+            <div class="modal-overlay" id="modalOverlay"></div>
+
+<section class="feedback-block feedback-modal" id="feedbackModal">
+    
+  <div class="feedback-block__container">
+    <div class="feedback-block__content">
+        <div class="header__icon header__icon__close__button modal_button_close">
+                        <img src="../src/Icons/x.svg" alt="Закрыть меню">
+                    </div>
+        <div class="modal__connection">
+            <svg width="4" height="40" viewBox="0 0 4 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z" fill="#41F6D7"/>
+                    </svg>
+      <h2 class="feedback-block__title">Обратная связь</h2>
+      </div>
+    </div>
+    
+    <form class="feedback-form" id="feedbackForm">
+      <div class="feedback-form__group">
+        <input type="text" class="feedback-form__input" placeholder="Имя" required>
+      </div>
+      <div class="feedback-form__group">
+        <input type="tel" class="feedback-form__input" placeholder="Телефон" required>
+      </div>
+      <div class="feedback-form__group">
+        <input type="email" class="feedback-form__input" placeholder="Электронная почта" required>
+      </div>
+      <div class="feedback-form__group">
+        <textarea class="feedback-form__textarea" placeholder="Сообщение" rows="5"></textarea>
+      </div>
+      <div class="modal_text">
+        <p>Нажимая "отправить", вы даете согласие на <a href="#">обработку персональных данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a></p>
+      </div>
+      
+      <button type="submit" class="price__swiper__slide__button">
+        <span class="price__swiper__slide__p price__swiper__slide__button__p">ОТПРАВИТЬ</span>
+        <img src="../src/icons/strelocka_odna.svg" alt="">
+      </button>
+    </form>
+    
+    <div class="feedback-block__success" id="successMsg" style="display: none;">
+      Спасибо! Заявка отправлена. Менеджер свяжется с вами в ближайшее время.
+    </div>
+  </div>
+</section>
+
+<section class="feedback-block feedback-modal" id="feedbackModal__search">
+<div class="feedback-block__container">
+    <div class="feedback-block__content">
+        <div class="header__icon header__icon__close__button modal_button_close">
+                        <img src="../src/Icons/x.svg" alt="Закрыть меню">
+                    </div>
+        <div class="modal__connection">
+            <svg width="4" height="40" viewBox="0 0 4 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M4 4C4 1.79086 2.20914 0 0 0V40C2.20914 40 4 38.2091 4 36V4Z" fill="#41F6D7"/>
+                    </svg>
+      <h2 class="feedback-block__title">Обратная связь</h2>
+      </div>
+    </div>
+    
+    <form class="feedback-form" id="feedbackForm">
+      <div class="feedback-form__group">
+        <input type="tel" class="feedback-form__input" placeholder="Телефон" required>
+      </div>
+      <div class="modal_text">
+        <p>Нажимая "отправить", вы даете согласие на <a href="#">обработку персональных данных</a> и соглашаетесь с нашей <a href="#">политикой конфиденциальности</a></p>
+      </div>
+      
+      <button type="submit" class="price__swiper__slide__button">
+        <span class="price__swiper__slide__p price__swiper__slide__button__p">ОТПРАВИТЬ</span>
+        <img src="../src/Icons/strelocka_odna.svg" alt="">
+      </button>
+    </form>
+    
+    <div class="feedback-block__success" id="successMsg" style="display: none;">
+      Спасибо! Заявка отправлена. Менеджер свяжется с вами в ближайшее время.
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <div class="footer__block__start">
+            <p>© 2019 CPS</p>
+            <p>Разработано командой Apesong</p>
+            </div>
+            <p>Политика конфиденциальности</p>
+            <div class="footer__block__end">
+            <p>Информация, размещенная на данной странице, не является публичной офертой</p>
+            </div>    
+        </footer>
+    </div>
+    <script type="text/javascript" src="./js/bundle.js"></script></main></body>
+</html>
