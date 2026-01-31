@@ -1,0 +1,295 @@
+@media screen and (orientation: portrait) and (max-width: 440px) {
+  .feedback-block {
+    padding: 64px 16px;
+    background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%); }
+  .feedback-block__container {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 30px; }
+  .feedback-block__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; }
+  .feedback-block__title {
+    font-family: "TTLakes",sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 0;
+    color: #1b1c21;
+    text-align: center; }
+  .feedback-block__text {
+    font-family: "TTLakes",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #7e7e82;
+    text-align: center;
+    margin: 0; }
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px; }
+  .feedback-form__group {
+    display: flex;
+    flex-direction: column; }
+  .feedback-form__input, .feedback-form__textarea {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; }
+  .feedback-form__input:focus, .feedback-form__textarea:focus {
+    outline: none;
+    border-color: #ff3e79; }
+  .feedback-form__textarea {
+    resize: vertical;
+    min-height: 100px; }
+  .feedback-form__submit {
+    width: 100%;
+    height: 48px;
+    background: #ff3e79;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease; }
+  .feedback-form__submit:hover:not(:disabled) {
+    background: #e6396a;
+    transform: translateY(-1px); }
+  .feedback-form__submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+  .feedback-block__success {
+    padding: 20px;
+    background: #ff3e79;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4; }
+  .modal_text a {
+    color: #e6396a; }
+  .feedback-modal {
+    position: fixed;
+    top: 50%;
+    right: -100vw;
+    left: auto;
+    width: 100vw;
+    max-width: 440px;
+    height: 100vh;
+    transform: translateY(-50%);
+    z-index: 10000;
+    transition: right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%);
+    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.2);
+    border-radius: 24px 0 0 24px;
+    overflow-y: auto; }
+  .feedback-modal--open {
+    right: 0; }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100dvh;
+    height: 100dvh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease; }
+  .modal-overlay--open {
+    opacity: 1;
+    visibility: visible; }
+  .open-feedback-btn {
+    background: #ff3e79;
+    color: #fff;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase; }
+  .modal_button_close {
+    margin-left: 16px; }
+  .modal__connection {
+    display: flex;
+    align-items: center;
+    gap: 14px; }
+  .price__swiper__slide__button {
+    border: 0;
+    margin-left: auto; } }
+
+@media screen and (min-width: 440px) {
+  .feedback-block {
+    padding: 64px 16px;
+    background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%); }
+  .feedback-block__container {
+    max-width: 400px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 30px; }
+  .feedback-block__title {
+    font-family: "TTLakes",sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 0;
+    color: #1b1c21;
+    text-align: center; }
+  .feedback-block__text {
+    font-family: "TTLakes",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #7e7e82;
+    text-align: center;
+    margin: 0; }
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px; }
+  .feedback-form__group {
+    display: flex;
+    flex-direction: column; }
+  .feedback-form__input, .feedback-form__textarea {
+    width: 100%;
+    padding: 16px 20px;
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease; }
+  .feedback-form__input:focus, .feedback-form__textarea:focus {
+    outline: none;
+    border-color: #ff3e79; }
+  .feedback-form__textarea {
+    resize: vertical;
+    min-height: 100px; }
+  .feedback-form__submit {
+    width: 100%;
+    height: 48px;
+    background: #ff3e79;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: all 0.3s ease; }
+  .feedback-form__submit:hover:not(:disabled) {
+    background: #e6396a;
+    transform: translateY(-1px); }
+  .feedback-form__submit:disabled {
+    opacity: 0.7;
+    cursor: not-allowed; }
+  .feedback-block__success {
+    padding: 20px;
+    background: #ff3e79;
+    border-radius: 6px;
+    text-align: center;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.4; }
+  .modal_text a {
+    color: #e6396a; }
+  .feedback-modal {
+    position: fixed;
+    top: 50%;
+    right: -100vw;
+    left: auto;
+    width: 100vw;
+    max-width: 400px;
+    height: 100vh;
+    transform: translateY(-50%);
+    z-index: 10000;
+    transition: right 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(270deg, #f8f8f8 0%, #fff 100%);
+    box-shadow: -8px 0 32px rgba(0, 0, 0, 0.2);
+    border-radius: 24px 0 0 24px; }
+  .feedback-modal--open {
+    right: 0; }
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.4s ease; }
+  .modal-overlay--open {
+    opacity: 1;
+    visibility: visible; }
+  .open-feedback-btn {
+    background: #ff3e79;
+    color: #fff;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 8px;
+    font-family: "TTLakes",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase; }
+  .modal_button_close {
+    position: absolute;
+    left: -64px;
+    top: 32px; }
+  .price__swiper__slide__button {
+    border: 0;
+    margin-left: auto; }
+  .modal__connection {
+    display: flex;
+    align-items: center;
+    gap: 14px; } }
+
+
+/*# sourceMappingURL=modal.css.map*/
